@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "SyncFix64"
+Date "2017-12-29"
+Rev "0.9"
+Comp "hackup.net"
 Comment1 ""
 Comment2 ""
 Comment3 ""
