@@ -83,8 +83,8 @@ L Connector:Conn_01x02 J1
 U 1 1 5A455CEA
 P 9550 2000
 F 0 "J1" H 9630 1992 50  0000 L CNN
-F 1 "PWR" H 9630 1901 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 9550 2000 50  0001 C CNN
+F 1 "Pwr" H 9630 1901 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9550 2000 50  0001 C CNN
 F 3 "~" H 9550 2000 50  0001 C CNN
 	1    9550 2000
 	1    0    0    -1  
@@ -387,7 +387,7 @@ U 1 1 5A45C797
 P 9550 3850
 F 0 "J2" H 9629 3892 50  0000 L CNN
 F 1 "Video" H 9629 3801 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 9550 3850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9550 3850 50  0001 C CNN
 F 3 "~" H 9550 3850 50  0001 C CNN
 	1    9550 3850
 	1    0    0    -1  
@@ -423,4 +423,26 @@ Wire Wire Line
 	9350 3850 8650 3850
 Wire Wire Line
 	8650 3850 8650 4150
+$Comp
+L Connector:Conn_01x01 J3
+U 1 1 5A48EC72
+P 9550 1600
+F 0 "J3" H 9630 1642 50  0000 L CNN
+F 1 "AltPwr" H 9630 1551 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 9550 1600 50  0001 C CNN
+F 3 "~" H 9550 1600 50  0001 C CNN
+	1    9550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 5A48ECFD
+P 9350 1600
+F 0 "#PWR014" H 9350 1450 50  0001 C CNN
+F 1 "+5V" H 9365 1773 50  0000 C CNN
+F 2 "" H 9350 1600 50  0001 C CNN
+F 3 "" H 9350 1600 50  0001 C CNN
+	1    9350 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
