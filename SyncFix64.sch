@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "SyncFix64"
 Date "2017-12-29"
-Rev "0.9"
+Rev "1.0"
 Comp "hackup.net"
 Comment1 ""
 Comment2 ""

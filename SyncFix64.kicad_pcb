@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title SyncFix64)
+    (date 2017-12-31)
+    (rev 1.0)
+    (company hackup.net)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
