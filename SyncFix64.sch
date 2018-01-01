@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SyncFix64"
-Date "2017-12-29"
-Rev "1.0"
+Date "2018-01-01"
+Rev "1.1"
 Comp "hackup.net"
 Comment1 ""
 Comment2 ""
@@ -251,17 +251,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6550 2750 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
-U 1 1 5A457088
-P 6650 2300
-F 0 "R4" H 6720 2346 50  0000 L CNN
-F 1 "1M" H 6720 2255 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6580 2300 50  0001 C CNN
-F 3 "" H 6650 2300 50  0001 C CNN
-	1    6650 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR08
 U 1 1 5A45711B
 P 5850 2150
@@ -270,17 +259,6 @@ F 1 "+5V" H 5865 2323 50  0000 C CNN
 F 2 "" H 5850 2150 50  0001 C CNN
 F 3 "" H 5850 2150 50  0001 C CNN
 	1    5850 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR09
-U 1 1 5A457145
-P 6650 2150
-F 0 "#PWR09" H 6650 2000 50  0001 C CNN
-F 1 "+5V" H 6665 2323 50  0000 C CNN
-F 2 "" H 6650 2150 50  0001 C CNN
-F 3 "" H 6650 2150 50  0001 C CNN
-	1    6650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -310,7 +288,7 @@ L device:R R1
 U 1 1 5A458794
 P 3000 2650
 F 0 "R1" H 3070 2696 50  0000 L CNN
-F 1 "220" H 3070 2605 50  0000 L CNN
+F 1 "100" H 3070 2605 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2930 2650 50  0001 C CNN
 F 3 "" H 3000 2650 50  0001 C CNN
 	1    3000 2650
@@ -323,8 +301,6 @@ Wire Wire Line
 	3000 2350 3700 2350
 Text GLabel 7200 3950 2    60   Output ~ 0
 VideoOUT
-Wire Wire Line
-	6650 2450 6650 2500
 Wire Wire Line
 	5850 2450 5850 2500
 Wire Wire Line
@@ -342,7 +318,6 @@ Wire Wire Line
 	7100 2500 7100 3950
 Wire Wire Line
 	7100 3950 7200 3950
-Connection ~ 6650 2500
 Wire Wire Line
 	6650 2500 6650 2550
 Wire Wire Line
