@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(2017-12-18 revision 3c6d17026)-makepkg")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-493-gd776eaca8)")
 
   (general
     (thickness 1.6)
@@ -12,8 +12,8 @@
   (page A4)
   (title_block
     (title SyncFix64)
-    (date 2018-01-01)
-    (rev 1.1)
+    (date 2018-05-28)
+    (rev 1.2)
     (company hackup.net)
   )
 
@@ -710,10 +710,10 @@
   (module Logo:bigby (layer B.Cu) (tedit 0) (tstamp 5A6F53CA)
     (at 124.714 70.612 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.3)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy -0.255603 2.783367) (xy -0.191997 2.7829) (xy -0.131892 2.782028) (xy -0.076809 2.780753)
       (xy -0.028269 2.779077) (xy 0.012209 2.777) (xy 0.043102 2.774524) (xy 0.062891 2.771652)
@@ -1165,10 +1165,10 @@
       (xy -0.452223 2.782322) (xy -0.387237 2.783079) (xy -0.32119 2.783427) (xy -0.255603 2.783367)) (layer B.SilkS) (width 0.01))
   )
 
-  (gr_text 5V (at 146.558 76.835 90) (layer F.SilkS) (tstamp 5A6380FA)
+  (gr_text 5V (at 146.05 76.708) (layer F.SilkS) (tstamp 5B0BEEC6)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "SyncFix64 v1.1" (at 136.017 73.406) (layer B.SilkS)
+  (gr_text "SyncFix64 v1.2" (at 136.017 73.406) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text github.com/hackup/SyncFix64 (at 132.842 76.2) (layer B.SilkS)
